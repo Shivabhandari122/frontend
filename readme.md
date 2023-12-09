@@ -10,3 +10,6 @@ is the basic selector in css which is not used most, class selector and id selec
 ### Day 2
 I have learned indepth about class selector, id selector and know something new 
 about pseudo selector. 
+
+### Day 3 
+learned about attribute selector, general rules of css, types of color and coloring test.
