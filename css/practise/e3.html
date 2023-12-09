@@ -6,7 +6,28 @@
     <title>form</title>
 </head>
 <body>
-    <label>Full name*:</label>
-    <input type="text">
-</body>
+    <form>
+      <label for="first name">First name*:</label><br><input type="text" placeholder="FirstName LastName"><br>
+      <label for="email-address">Email address*:</label><br><input type="email" placeholder="EMAIL_ADDRESS"><br>
+      <laber for="tour">Select Tour Package*:</label><br>
+      <select name="tour">
+        <option value="1">Goa</option>
+      </select><br>
+      <label for="arrival">Arrival date*:</label><br><input type="number" placeholder="m/d/y"><br>
+      <label for="person">Number of person*:</label><br><input type="number" placeholder="UNKNOWN_TYPE"><br>
+      <label for="avail">What would you want to avail?*</label><br>
+      <label for="boarding">Boarding</label>
+      <input type="checkbox" value="boarding" name="boarding"><br>
+      <label for="fooding">Fooding</fooding>
+      <input type="checkbox" value="fooding" name="fooding"><br>
+      <label for="sight">Sight seeing</label>
+      <input type="checkbox" value="sight" name="sight"><br>
+      <label for="discount">Discount Coupon code:</label><br>
+      <input type="text" placeholder="UNKNOWN_TYPE"><br>
+      <label for="terms">Terms and conditions*</label><br>
+      <input type="radio" name="a"><label for="agree">I agree</label>
+      <input type="radio" name="a"><label for="disagree">I disagree</label><br>
+      <input type="submit" value="Complete reservation">
+    </form>
+  </body>
 </html>
