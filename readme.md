@@ -13,3 +13,7 @@ about pseudo selector.
 
 ### Day 3 
 learned about attribute selector, general rules of css, types of color and coloring test.
+
+### Day 4 
+Today i learned about background color, images/url in css, other background properties,
+opacity/transparency and gradiants.
