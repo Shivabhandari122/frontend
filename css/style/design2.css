@@ -1,10 +1,13 @@
 body{
     background-color:rgb(147, 215, 245);
+    /* font-family:"Arial", sans-serif; */
+    font-family: 'Cabin', sans-serif;
 }
 #title{
     color:rgb(000,000,fff);
 }
 .aclass{
+    font-family: 'Oswald', sans-serif;
     color:blueviolet;
 }
 /* Advanced selector */
@@ -12,5 +15,9 @@ body{
 h2 + a {
     color:red;
 }
-/* General sibling selector, comes under advanced selector */
+/* General sibling selector, comes under advanced selector, in these both elment should comes under same parrent */
+
+textarea ~ button{
+    color:purple;
+}
 

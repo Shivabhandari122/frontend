@@ -1,17 +1,19 @@
 body{
     background-color:rgba(147, 215, 245, 0.7);
+    /* font-family:sans-serif; */
+    font-family: 'Cabin', sans-serif; 
 }
 /* element selector, very basic */
 h1{
-    color:blue
+    color:blue;
 }
 /* class selector is most frequently used selector*/
 .aclass:hover{
-    color:red
+    color:red;
 }
 /* id selector which is used only one time */
 #aid{
-    color:blueviolet
+    color:blueviolet;
 }
 /* pseudo selector which will be used in animation */
 
@@ -32,4 +34,8 @@ li:nth-child(2){
 }
 #google-link:visited{
     color:rgb(255, 174, 0);
+}
+#img{
+    height:300px;
+    width:40vh;
 }
