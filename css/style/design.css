@@ -1,13 +1,35 @@
 body{
     background-color:rgba(147, 215, 245, 0.7);
 }
-
+/* element selector, very basic */
 h1{
     color:blue
 }
-.aclass{
+/* class selector is most frequently used selector*/
+.aclass:hover{
     color:red
 }
+/* id selector which is used only one time */
 #aid{
     color:blueviolet
+}
+/* pseudo selector which will be used in animation */
+
+/* This used when there is only one child */
+
+/* li:only-child{
+    color:blue;
+ } */
+
+li:last-child{
+    color:steelblue;
+}
+li:nth-child(2){
+    color:goldenrod;
+}
+#google-link:link{
+    color:brown;
+}
+#google-link:visited{
+    color:rgb(255, 174, 0);
 }

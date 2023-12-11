@@ -4,6 +4,13 @@ body{
 #title{
     color:rgb(000,000,fff);
 }
-.subtitle{
+.aclass{
     color:blueviolet;
 }
+/* Advanced selector */
+
+h2 + a {
+    color:red;
+}
+/* General sibling selector, comes under advanced selector */
+
