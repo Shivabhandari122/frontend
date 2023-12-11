@@ -17,3 +17,6 @@ learned about attribute selector, general rules of css, types of color and color
 ### Day 4 
 Today i learned about background color, images/url in css, other background properties,
 opacity/transparency and gradiants.
+
+### Day 5
+In day 5, i have learned introduction to types of units, text manipulation, font size, bolding and styles and font families.
