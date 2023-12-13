@@ -35,7 +35,14 @@ li:nth-child(2){
 #google-link:visited{
     color:rgb(255, 174, 0);
 }
-#img{
+.img{
     height:300px;
     width:40vh;
 }
+/* Attribute selector */
+/* img[src*="../img/"]*/
+/* img[src$="../img/"] */
+img[src^="../img/"]{
+    border:10px solid black;
+}
+

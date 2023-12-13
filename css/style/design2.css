@@ -8,7 +8,7 @@ body{
 }
 .aclass{
     font-family: 'Oswald', sans-serif;
-    color:blueviolet;
+    /* color:blueviolet; */
 }
 /* Advanced selector */
 
@@ -22,8 +22,18 @@ textarea ~ button{
 }
 
 /* This is the basic child selector out of the advanced selector */
-/* works on direct desendent only */
+/* works on direct children only */
 ul > li{
     color:fuchsia;
+}
+/* Desendent selector */
+/* works on all desecendent, not just only the children */
+/* This selector overrides the children selector */
+ul li{
+    color:darkblue;
+}
+/* Attribute selector */
+h2[class=aclass]{
+    color:blueviolet;
 }
 
