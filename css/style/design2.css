@@ -20,6 +20,9 @@ h2 + a {
 textarea ~ button{
     color:purple;
 }
+
+/* This is the basic child selector out of the advanced selector */
+/* works on direct desendent only */
 ul > li{
     color:fuchsia;
 }
