@@ -23,3 +23,6 @@ In day 5, i have learned introduction to types of units, text manipulation, font
 
 ### Day 6
 On this day, i have learned including external fonts, using external fonts, css box model, changing content size and css borders.
+
+### Day 7
+Learned something new like margin and padding, floats and display types and flex box.
