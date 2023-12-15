@@ -26,3 +26,6 @@ On this day, i have learned including external fonts, using external fonts, css 
 
 ### Day 7
 Learned something new like margin and padding, floats and display types and flex box.
+
+### Day 8
+Learn about Flexbox, the Flexible Box Layout Module, makes it easier to design flexible responsive layout structure without using float or positioning.
