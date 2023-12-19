@@ -33,17 +33,26 @@ body{
     margin-bottom: 18px;
     padding: 18px;
 }
-#testimonial-grid-container, #main-left,
-#top, #buttom{
-    display:flex;
-}
-
 @media (min-width: 576px){
     #testimonial-grid-container{
         max-width: 900px;
         margin: 0 auto;
-        justify-content: space-between;
     }
+    #testimonial-grid-container, 
+    #main-left,
+    #top, #buttom{
+    display:flex;
+}
+#top, #buttom{
+    flex-basis: 50%;
+}
+#testimonial-1, #testimonial-4{
+    flex-basis: 65%;
+    
+}
+#testimonial-2, #testimonial-3{
+    flex-basis: 35%;
+}
     #testimonial-5{
         flex-basis: 25%;
     }
@@ -53,24 +62,5 @@ body{
     }
     #main-left .grid-item{
         margin-right: 15px;
-    }
-    #top{
-        flex-basis: 50%;
-    }
-    #buttom{
-        flex-basis: 50%;
-    }
-    #testimonial-1{
-        flex-basis: 65%;
-        
-    }
-    #testimonial-2{
-        flex-basis: 35%;
-    }
-    #testimonial-3{
-        flex-basis: 35%;
-    }
-    #testimonial-4{
-        flex-basis: 65%;
     }
 }
