@@ -32,3 +32,6 @@ Learn about Flexbox, the Flexible Box Layout Module, makes it easier to design f
 
 ### Day 9
 Playing game of flexbox which is flexbox frogy link:(https://flexboxfroggy.com/), in which i have learned about some important properties of flexbox like justify-content, align-items, align-self, flex-wrap, align-content, flex-flow, order and flex-direction.
+
+### Day 10 
+Practice flexbox project for beginner from this link(https://www.youtube.com/watch?v=n0QmD2i90_c&t=3069s).
