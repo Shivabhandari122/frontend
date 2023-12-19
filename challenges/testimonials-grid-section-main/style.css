@@ -35,5 +35,22 @@ body{
 }
 
 @media (min-width: 576px) {
-
+    #testimonial-grid-container{
+        display: flex;
+    }
+    #testimonial-5{
+        flex-basis: 25%;
+    }
+    #main{
+        display: flex;
+        flex-direction: column;
+    }
+     #top{
+        display: flex;
+        flex-basis: 50%;
+    }
+    #buttom{
+        display:flex;
+        flex-basis: 50%;
+    } 
 }
