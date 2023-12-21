@@ -35,3 +35,6 @@ Playing game of flexbox which is flexbox frogy link:(https://flexboxfroggy.com/)
 
 ### Day 10 
 Practice flexbox project for beginner from this link(https://www.youtube.com/watch?v=n0QmD2i90_c&t=3069s).
+
+### Day 11
+watching video of grid-box.
