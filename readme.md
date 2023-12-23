@@ -38,3 +38,9 @@ Practice flexbox project for beginner from this link(https://www.youtube.com/wat
 
 ### Day 11
 watching video of grid-box.
+
+### Day 12
+Nothing done in that day.
+
+### Day 13 
+practicing The grid area and the transition property.
