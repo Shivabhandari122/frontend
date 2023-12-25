@@ -50,20 +50,28 @@
             padding:20px 30px;
             
         }
+        #about-me {
+            animation-name: translate-element;
+            animation-duration: 4s;
+            animation-timing-function: linear;  /* other properties= ease, ease-in, ease-out*/
+            /* animation-delay: -2s; */
+            animation-iteration-count: 2; /*infinite*/
+            animation-direction: normal;
+        }
         @keyframes translate-element {
             /* from{background: red;} */ 
             /* to {background: black;} */
             0% {
                 background: red; 
-                transform: (0px, 0px);
+                transform: translate(0px, 0px);
             }
             50% {
                 background: yellow; 
-                transform: (10px, 10px) ;
+                transform: translate(10px, 10px);
             }
             100% {
                 background-color: black; 
-                transform: (20px, 20px) ;
+                transform: translate(20px, 20px);
             }
         }
     </style>
