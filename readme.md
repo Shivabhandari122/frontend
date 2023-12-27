@@ -41,3 +41,10 @@ watching video of grid-box.
 
 ### Day 12
 Transformation form, creating animation, animation properties and Website transformation challenge.
+
+### Day 13
+Watching last part of video which is project completion.
+course completed from this day.
+
+### Day l4
+Doing nothing today.
