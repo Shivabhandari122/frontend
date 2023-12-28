@@ -29,6 +29,9 @@ li:last-child{
 li:nth-child(2){
     color:goldenrod;
 }
+li:nth-child(3){
+    color:blueviolet;
+}
 #google-link:link{
     color:brown;
 }
