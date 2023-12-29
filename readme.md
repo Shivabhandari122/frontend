@@ -48,3 +48,6 @@ course completed from this day.
 
 ### Day l4
 Doing nothing today.
+
+### Day 16
+Playing grid-box game link:(https://cssgridgarden.com/).
