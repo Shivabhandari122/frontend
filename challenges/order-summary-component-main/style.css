@@ -6,6 +6,7 @@
 }
 .html, body{
     font-family: 'Figtree',sans-serif;
+    font-weight: 500;
     font-size: 16px;
     background-image: url("./images/pattern-background-desktop.svg");
     background-repeat: no-repeat;
@@ -40,9 +41,12 @@
     gap: 1.5rem;
 }
 .sub-container .title{
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
     text-align: center;
 }
 .sub-container .content{
+    font-weight: 500;
     color: hsl(224, 23%, 55%);
     text-align: center;
 }
@@ -63,6 +67,10 @@
     display: flex;
     gap: 1rem;
 }
+.Annual-plan h5{
+    font-weight: 700;
+    color: hsl(223, 47%, 23%);
+}
 .Annual-plan .music{
     display: flex;
     flex-direction: column;
@@ -72,6 +80,7 @@
     color: hsl(224, 23%, 55%);
 }
 .main-container .Proceed-btn{
+    font-weight: 500;
     border-radius: 0.75rem;
     height: 3rem;
     width: 80%;
@@ -84,6 +93,7 @@
     justify-content: center;
 } 
 .main-container .cancel-btn{
+    color: hsl(224, 23%, 55%)
     text-decoration: none;
     margin-bottom: 30px;
 }
