@@ -91,9 +91,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.Proceed-btn:hover{
+    color: white;
+    background-color: hsl(225, 84%, 81%);
 } 
 .main-container .cancel-btn{
-    color: hsl(224, 23%, 55%)
+    cursor: pointer;
+    color: rgb(113, 101, 251);
     text-decoration: none;
     margin-bottom: 30px;
+}
+.cancel-btn:hover{
+    cursor: pointer;
 }
