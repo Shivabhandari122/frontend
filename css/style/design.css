@@ -24,7 +24,7 @@ h1{
  } */
 
 li:last-child{
-    color:steelblue;
+    color:lightblue;
 }
 li:nth-child(2){
     color:goldenrod;
