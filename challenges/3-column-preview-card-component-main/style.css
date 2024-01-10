@@ -68,3 +68,11 @@ a{  margin-top: 3rem;
     align-items: center;
     text-align: center;
 }
+@media(max-width: 576px){
+    .main-container{
+        width: 100%;
+        padding: 3rem 2rem;
+        display: flex;
+        flex-direction: column;
+    }
+}
