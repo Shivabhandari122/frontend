@@ -25,9 +25,14 @@
         variableValue: "value of object",
     };
     4. function
-        function variable const var1 = (function(){
-         return "my name is shiva"   
+        const var1 = (function(){
+        return "my name is shiva"   
     })();
+    5. boolean
+        const var1 = false;
+    6. array
+        const firstArray = [10, 20, 30, 40];
+
 
 ***********************************************************
 
