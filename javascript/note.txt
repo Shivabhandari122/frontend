@@ -1,0 +1,35 @@
+* Type of variable use in javascript
+
+ 1. var variable is old version variable used in javascript for eg: var myVariable = 1;
+
+ let variable and const variable is introduced in recent
+ time from 2015/16, which is now commonly used variable in
+ javacript. in let variable we can assign value dynamically
+ wheare as in const variable value remain constant. 
+ 2. for eg: let var1 = 1;
+             var1 = var1 + 1;
+        
+ 3.           const gravity = 9.8;
+
+***********************************************************
+# Data types in javascript:
+    1. Number
+        let myVariable = 1;
+    
+    2. string
+        let myVariable = "shiva";
+
+    3. object
+        const var1 = {
+        variableType: "object",
+        variableValue: "value of object",
+    };
+    4. function
+        function variable const var1 = (function(){
+         return "my name is shiva"   
+    })();
+
+***********************************************************
+
+        
+

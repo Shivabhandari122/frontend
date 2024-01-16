@@ -3,7 +3,14 @@
     margin:0px;
     padding:0px;
 }
-
+p,
+h1,
+h2,
+h3,
+h4,
+h5{
+    overflow-wrap: break-word;   
+}
 p{
     font-size: 13px;
 }
@@ -18,7 +25,7 @@ body{
     align-items: center;
 }
 main{
-    height: 70vh;
+    height: 74vh;
     width: 76vw;
     display: grid;
     grid-template-columns: repeat(4, 25%);
@@ -86,4 +93,3 @@ h4{
         width: 90%;
     }
 }
-
