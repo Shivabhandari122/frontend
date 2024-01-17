@@ -33,8 +33,156 @@
     6. array
         const firstArray = [10, 20, 30, 40];
 
+        Not often used array, in these array you can add 
+        different data types.
+
+        const firstArray = [10, 'shiva', { prop: 'sldlfs'}, [1, 3]];
 
 ***********************************************************
+const firstVariable = [10, 'a string', { pros: 'adfflj'}, [1, 4]];
+console.log(firstVariable[3]);
+console.log(firstVariable[3][1]);
+//answer will be 4.
+
+// Object in javascript
+const objectVariable = { prop1: 10, prop2: 20};
+undefined
+objectVariable
+Object { prop1: 10, prop2: 20 }
+
+objectVariable[0]
+undefined
+objectVariable['prop1'] //method of retriving data from object
+
+objectVariable.prop1 //method of retriving data from object
+10
+const nestedObject = {
+  layer1: {
+    layer2: {
+      layer3: {
+        targetValue: 20
+      }
+    }
+  }
+} 
+nestedObject.layer1.layer2.layer3.targetValue;
+ans: 20
+
+Function in javascript
+const functionContainerVariable = function(){
+    return 20;
+}
+functionContainerVariable();
+ans: 20
+***********************************************************
+## Operators in javascript
+
+#expontential Operator of arthematic operator
+4**2
+ans: 16
+
+#Comparison operator
+==, ===, !=, !==, >, <, >=, <=
+
+== and != opposite to each other and === and !== opposite
+to each other.
+
+const result = 20 > 18;
+result
+.true 
+const result2 = 20 ===20;
+result2
+.true
+
+(==)does not care about datatypes and (===) care about 
+datatypes.
+for eg: const numberValue = 10;
+        const stringValue = '10';
+        numberValue == stringValue
+        .true
+        numberValue === stringValue
+        .false
+
+ cont firstArray = [1, 2, 3, 4];
+ const secondArray = [1, 2, 3, 4];
+firstArray === secondArray;
+.false
+same case in object too.
+
+#ternary operator of Comparison operator
+
+const result = 20 === 20 ? 'values match' : 'values do not match';
+undefined
+result
+"values match"
+both work same to each other
+
+let resultVariable;
+undefined
+if ( 20 === 20){
+  resultVariable = 'values match';
+}
+else{
+  resultVariable = 'values do not match';…
+"values match"
+}
+
+#logical operator 
+
+20 === 20 && 10 ===10
+true
+20 === 20 && 10 === 12
+false
+20 === 20 || 10 === 12
+true
+20 === 1 || 10 === 12
+false 
+
+#operator used in real world practical example.
+
+const isUserLoggIn = true;
+undefined
+const doesUserHavePermissions = false;
+undefined
+const canUserPerformAction = isUserLoggIn && doesUserHavePermissions;
+undefined
+
+if(canUserPerformAction)
+
+#combining all the operator
+
+const result = !(((40 / 20) === 2 && true) || ('yes' === 'no'));
+undefined
+result
+false
+
+// same as above done in below part
+
+const first = (40 / 20) === 2;
+undefined
+first
+true
+const second = first && true;
+undefined
+second
+true
+const third = 'yes' === 'no';
+undefined
+third
+false
+const forth = second || third;
+undefined
+forth
+true
+const finalResult = !forth;
+undefined
+finalResult
+false
+
+​
+
+
+
 
         
 
