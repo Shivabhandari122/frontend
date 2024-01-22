@@ -69,3 +69,56 @@ const result2 = (myArray[0].price * myArray[0].quantity) > (myArray[1].price * m
 undefined
 console.log(result2);
 true
+
+// if else condition in javascript
+
+const colors = ['Green', 'Red', 'Blue', 'Yellow', 'black'];
+const randomIndex = Math.floor(Math.random() * colors.length);
+const randomColor = colors[randomIndex];
+// condition
+if(randomColor === 'Green'){
+  console.log('The color is Green');
+}
+else if(randomColor === 'Red'){
+  console.log('The color is Red');
+}
+else if(randomColor === 'Blue'){
+  console.log('The color is Blue');
+}
+else if(randomColor === 'Yellow'){
+  console.log('The color is Yellow');
+}
+else{
+  console.log('The color is Black');
+}
+
+// switch / case statement in javascript
+
+const colours = ['Green', 'Red', 'Blue', 'Yellow', 'Black','Purple'];
+const randomNumber = Math.floor(Math.random() * colours.length);
+const randomColour = colours[randomNumber];
+
+// switch statement
+
+switch(randomColour){
+  case 'Green':
+    console.log('The color is Green');
+    break;
+    case 'Red':
+      console.log('The color is Red');
+      break;
+      case 'Blue':
+        console.log('The color is Blue');
+        break;
+        case 'Yellow':
+          console.log('The color is Yellow');
+          break;
+          case 'Black':
+            console.log('The color is Black');
+            break;
+            case 'Purple':
+              console.log('The color is Purple');
+              break;
+              default:
+                console.log('There is no color found');
+}
