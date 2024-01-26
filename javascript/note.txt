@@ -287,3 +287,5 @@ undefined
 newFunction(10, 'hello world');
 10 
 hello world
+
+today leave
