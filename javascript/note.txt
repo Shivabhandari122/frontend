@@ -287,5 +287,67 @@ undefined
 newFunction(10, 'hello world');
 10 
 hello world
+##Anamolous function
+const anotherFunction = function (){
+  console.log('some thing');
+}
+undefined
+anotherFunction();
+some thing
 
-today leave
+##Arrow function.
+
+const myFunction = () => {
+  console.log('hello my name is shiva');
+}
+undefined
+myFunction();
+hello my name is shiva debugger eval code:2:11
+undefined
+const result = myFunction();
+hello my name is shiva debugger eval code:2:11
+undefined
+result
+undefined //without return value it shows undefined.
+const anotherFunction = () =>{
+  const a = 20;
+    return a < 30;
+}
+undefined
+const result1 = anotherFunction();
+undefined
+result1 //with retrun value it shows result.
+true
+
+eg:
+
+function myFunction(){
+  return 20;
+}
+undefined
+const aliasFunction = myFunction;
+undefined
+aliasFunction();
+20
+const obj = {
+  prop1: 50,
+    prop2: myFunction
+}
+undefined
+obj.prop2();
+20
+***********************************************************
+#Built-in-function in javascript.
+
+​let str = 'hello world';
+undefined
+const result = str.toUpperCase().split(" ");
+undefined
+result
+Array [ "HELLO", "WORLD" ]
+
+result.indexOf("WORLD");
+1
+
+​
+​
