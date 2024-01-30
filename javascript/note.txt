@@ -350,5 +350,6 @@ result.indexOf("WORLD");
 1
 doing nothing today
 doing nothing today
+doing nothing today
 ​
 ​
